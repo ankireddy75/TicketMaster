@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ticket.master.word.match.WordMatchTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-29T20:47:10" hostname="Ankireddys-MacBook-Pro.local" time="0.295">
+  <properties/>
+  <testcase name="wordsMatch_whenRansomNoteWordsNotMatchedWithFriends" classname="com.ticket.master.word.match.WordMatchTest" time="0.176"/>
+  <testcase name="wordsMatch_whenRansomNoteWordsMatchedWithFriends" classname="com.ticket.master.word.match.WordMatchTest" time="0.057"/>
+  <testcase name="wordsMatch_whenRansomNoteWordsNotMatchedWithDeadMen" classname="com.ticket.master.word.match.WordMatchTest" time="0.042"/>
+  <testcase name="wordsMatch_whenRansomNoteWordsMatchedWithDeadMen" classname="com.ticket.master.word.match.WordMatchTest" time="0.011"/>
+  <testcase name="wordsMatch_whenRansomNoteWordsMatchedWithPlayEquipment" classname="com.ticket.master.word.match.WordMatchTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Oct 29, 2019 8:47:10 PM com.ticket.master.word.match.WordMatch wordsMatch
+INFO: Words not  matched with Article gutenberg_e_book_friends.txt [wze, snugglesworth, bills, pm, police]
+Oct 29, 2019 8:47:10 PM com.ticket.master.word.match.WordMatch wordsMatch
+INFO: All words in Ransom Note  matched with gutenberg_e_book_friends.txt
+Oct 29, 2019 8:47:10 PM com.ticket.master.word.match.WordMatch wordsMatch
+INFO: Words not  matched with Article gutenberg_e_book_dead_men.txt [wze, snugglesworth, bills, bench, pm]
+Oct 29, 2019 8:47:10 PM com.ticket.master.word.match.WordMatch wordsMatch
+INFO: All words in Ransom Note  matched with gutenberg_e_book_dead_men.txt
+Oct 29, 2019 8:47:10 PM com.ticket.master.word.match.WordMatch wordsMatch
+INFO: All words in Ransom Note  matched with gutenberg_play_equipment.txt
+]]></system-err>
+</testsuite>
